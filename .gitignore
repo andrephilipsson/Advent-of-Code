@@ -1,0 +1,12 @@
+.bloop/
+.cache
+.history
+.lib/
+.metals/
+dist/*
+lib_managed/
+project/boot/
+project/metals.sbt
+project/plugins/project/
+src_managed/
+target/
