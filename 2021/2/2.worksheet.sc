@@ -1,9 +1,9 @@
-val source = scala.io.Source.fromFile("input/2.txt")
+val source = scala.io.Source.fromFile("input.txt")
 val lines = try source.getLines.toVector finally source.close()
 
 var p1, d1 = 0
 
-lines.foreach{ i =>
+lines.foreach { i =>
   val splitted = i.split(' ')
   val amount = splitted.last.toInt
   splitted.head match
@@ -20,7 +20,7 @@ val answer1 = p1 * d1
 
 var p2, d2, a = 0
 
-lines.foreach{ i =>
+lines.foreach { i =>
   val splitted = i.split(' ')
   val amount = splitted.last.toInt
   splitted.head match
